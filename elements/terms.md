@@ -1,4 +1,20 @@
-# Tags
+# Terms
+
+So what did that code actually do? Visibly, the "title" of the page (visible in the browser tab) was set to "My Website" and there was text on the page that appeared.
+
+In order to fully understand there's a few (only a few, I promise) terms you're going to have to know so that we can have a common language when discussing the technical concepts we'll cover this semester.
+
+## Elements
+
+>Elements are designators that define the structure and content of objects within a page. Some of the more frequently used elements include multiple levels of headings (identified as `h1` through `h6` elements) and paragraphs (identified as the `p` element); the list goes on to include the `a`, `div`, `span`, `strong`, and `em` elements, and many more.
+
+>Elements are identified by the use of less-than and greater-than angle brackets, < >, surrounding the element name. Thus, an element will look like the following: `a`.
+
+What are some elements on the page we created? One example of an element is the `h1` element. Play around with that — try replacing it with some HTML elements to see what they do (and try to guess before testing it!). Some common ones are: `b` and `i`.
+
+The great part about web development is that a lot of learning comes out of just being curious and replacing text, saving it and trying it out! Don't be afraid to try new things. Worst case, CMD + Z is your best friend (or CTRL + Z for you silly Windows users).
+
+## Tags
 
 Your experimentation may have been futile because you didn't correctly structure your HTML elements. With very few exceptions, virtually every element is compost of these *tags*.
 
@@ -138,3 +154,21 @@ Try running the following and try to figure out what it's doing:
 ```
 
 If you're ever stuck, simply try googling "html [element name]" and inevitably, the first couple of links will be super helpful. Isn't the internet wonderful?
+
+## Attributes
+
+Congrats on making it to the third (and last) HTML-related term you'll have to learn!
+
+Attributes are where the magic happens. Some elements are more advanced than others and attributes allow us to feed specific elements more arguments (when applicable).
+
+>Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
+
+>Attributes are defined within the opening tag, after an element’s name. Generally attributes include a name and a value. The format for these attributes consists of the attribute name followed by an equals sign and then a quoted attribute value.
+
+For example, an `a` element including an href attribute would look like the following:
+
+`<a href="http://northeastern.io/">yoloswag</a>`
+
+which would create a link that looked like this: [yoloswag](http://northeastern.io/).
+
+This is because an `a` element, one of the most commonly used elements, is the *anchor* element. It represents links, the targets of which are specified in the `href`attribute. It's one of the *most
