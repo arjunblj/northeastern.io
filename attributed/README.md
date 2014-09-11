@@ -2,7 +2,7 @@
 
 Congrats on making it to the third (and last) HTML-related term you'll have to learn!
 
-Attributes are where the magic happens.
+Attributes are where the magic happens. Some elements are more advanced than others and attributes allow us to feed specific elements more arguments (when applicable).
 
 >Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
 
@@ -13,3 +13,5 @@ For example, an `a` element including an href attribute would look like the foll
 `<a href="http://northeastern.io/">yoloswag</a>`
 
 which would create a link that looked like this: [yoloswag](http://northeastern.io/).
+
+This is because an `a` element, one of the most commonly used elements, is the *anchor* element. It represents links, the targets of which are specified in the `href`attribute. It's one of the *most

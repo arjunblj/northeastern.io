@@ -18,6 +18,8 @@
     
     
     
+    <link rel="next" href="./elements/README.html" />
+    
     
 
         
@@ -29,7 +31,7 @@
 
 
         
-    <div class="book"  data-level="0" data-basepath="." data-revision="1410404036895">
+    <div class="book"  data-level="0" data-basepath="." data-revision="1410408985880">
     
 
 <div class="book-summary">
@@ -54,6 +56,54 @@
                         <i class="fa fa-check"></i>
                         
                          Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="elements/README.html">
+            
+                
+                    <a href="./elements/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Elements
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="tags/README.html">
+            
+                
+                    <a href="./tags/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Tags
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="attributed/README.html">
+            
+                
+                    <a href="./attributed/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Attributes
                     </a>
                 
             
@@ -149,7 +199,7 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3805">
+                    <section class="normal" id="section-gitbook_5005">
                     
                         <h1 id="northeasternio-html-and-css">Northeastern.io HTML and CSS</h1>
 <p>Hi! Welcome to Northeastern.io. Hopefully over the course of the semester, we (Arjun and Luke) will get you from 0 to <em>n</em>, where <em>n</em> is a slightly more-technical, more-awesome version of yourself.</p>
@@ -185,58 +235,7 @@
 <p>Elements are identified by the use of less-than and greater-than angle brackets, &lt; &gt;, surrounding the element name. Thus, an element will look like the following: <code>a</code>.</p>
 </blockquote>
 <p>What are some elements on the page we created? One example of an element is the <code>h1</code> element. Play around with that — try replacing it with some HTML elements to see what they do (and try to guess before testing it!). Some common ones are: <code>b</code> and <code>i</code>.</p>
-<p>The great part about web development is that a lot of learning comes out of just being curious and replacing text, saving it and trying it out! Don&#39;t be afraid to try new things. Worst case, CMD + Z is your best friend (or CTRL + Z for you silly Windows users).</p>
-<h3 id="tags">Tags</h3>
-<p>Your experimentation may have been futile because you didn&#39;t correctly structure your HTML elements. With very few exceptions, virtually every element is compost of these <em>tags</em>.</p>
-<blockquote>
-<p>The use of less-than and greater-than angle brackets surrounding an element creates what is known as a tag. Tags most commonly occur in pairs of opening and closing tags.</p>
-<p>An opening tag marks the beginning of an element. It consists of a less-than sign followed by an element’s name, and then ends with a greater-than sign; for example, <code>&lt;div&gt;</code>.</p>
-<p>A closing tag marks the end of an element. It consists of a less-than sign followed by a forward slash and the element’s name, and then ends with a greater-than sign; for example, <code>&lt;/div&gt;</code>.</p>
-<p>The content that falls between the opening and closing tags is the content of that element. An anchor link, for example, will have an opening tag of <code>&lt;a&gt;</code> and a closing tag of <code>&lt;/a&gt;</code>. What falls between these two tags will be the content of the anchor link.</p>
-<p>So, anchor tags will look a bit like this: <code>&lt;a&gt;...&lt;/a&gt;</code>.</p>
-</blockquote>
-<p>Some sets of tags we have on our &quot;Hello World!&quot; page: <code>&lt;h1&gt;...&lt;/h1&gt;</code>, <code>&lt;body&gt;...&lt;/body&gt;</code>, <code>&lt;head&gt;...&lt;/head&gt;</code>, etc.</p>
-<p>You&#39;ll notice all of our tags follow a sort of nested structure to them. Learn it. Love it.</p>
-<p>While HTML isn&#39;t particularly sensitive to whitespace, it&#39;s generally good practice to structure your HTML in a cool, nested style. It&#39;s more readable and won&#39;t cause others to want to rip their eyeballs out. Don&#39;t do this:</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
-                            <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>My
-
-
-  Website<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
- <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Hello, World!
- <span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
-</code></pre>
-<p>While it&#39;s <em>functionally</em> the same, a cute bunny dies somewhere in the world every time you do that. You don&#39;t hate bunnies, <em>do you</em>????</p>
-<p>Every HTML document is wrapped with a set of <code>html</code> tags. You can see this in virtually every site online, whether it&#39;s the small &quot;Hello World!&quot; page we rendered above or the Facebook&#39;s homepage (Don&#39;t go to Facebook to check! Stay focused!).</p>
-<p>HTML files follow a structure that looks roughly like this:</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
-        ... various head elements ...
-    <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
-        ... various body elements ...
-    <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
-</code></pre>
-<p>Let&#39;s go ahead and rebuild the page from scratch. Try along with me and compare your result (Don&#39;t peek, it won&#39;t help at all!).</p>
-<p>First, we&#39;ll start with wrapping the page in <code>html</code> tags and adding some <code>head</code> elements.</p>
-<p>The <code>head</code> contains <em>metadata</em> for the HTML file, which is data about the file that may or may not be visible right in the web page.</p>
-<p>Right now, the only element we&#39;ve learned about that goes in the head is the <code>title</code> element. Go ahead and add some title tags to the page and title your page!</p>
-<p>If you&#39;re using Sublime, it might be tempting to allow it to auto-complete some of the tags you start, but trust me, there&#39;s so much more to be gained from the hard work of typing tags yourself.</p>
-<p>Try running it! If it works, great!If not</p>
-<p>You should have something that resembles this:</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Han Shot First: You Know It Too<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
-</code></pre>
-<p>If you don&#39;t</p>
+<p>The great part about web development is that a lot of learning comes out of just being curious and replacing text, saving it and trying it out! Don&#39;t be afraid to try new things. Worst case, CMD + Z is your best friend (or CTRL + Z for you silly Windows users).t</p>
 
                     
                     </section>
@@ -247,6 +246,8 @@
         </div>
 
         
+        
+        <a href="./elements/README.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Elements"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

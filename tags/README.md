@@ -105,3 +105,36 @@ Here's a quick example of this and the resulting page:
 Excellent, you should now have a page which uses a variety of different tags. Good work!
 
 Go back and take a look at that measly "Hello world!" example you created earlier and how incredibly simple it was in comparison. YOU DONE GOOD, SON!
+
+Other simple elements are `ul`/`li` and `table`.
+
+Try running the following and try to figure out what it's doing:
+
+```html
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1>Check out that table.</h1>
+
+        <table>
+            <tr>
+                <th>First Header</th>
+                <th>Second Header</th>
+            </tr>
+            <tr>
+                <td>First Row, First Cell</td>
+                <td>First Row, Second Cell</td>
+            </tr>
+            <tr>
+                <td>Second Row, First Cell</td>
+                <td>Second Row, Second Cell</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+```
+
+If you're ever stuck, simply try googling "html [element name]" and inevitably, the first couple of links will be super helpful. Isn't the internet wonderful?
