@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Elements](elements/README.md)
-* [Tags](tags/README.md)
-* [Attributes](attributed/README.md)
+* [HTML and CSS](elements/README.md)
+   * [Hello World](elements/hello_world.md)
+   * [Terms](elements/terms.md)
 
