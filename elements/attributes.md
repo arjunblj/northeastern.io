@@ -1,6 +1,6 @@
 # Tags
 
-Your experimentation may have been futile because you didn't correctly structure your HTML elements. With very few exceptions, virtually every element is compost of these *tags*.
+Your experimentation may have been futile because you didn't correctly structure your HTML elements. With very few exceptions, every element is composed of these *tags*.
 
 >The use of less-than and greater-than angle brackets surrounding an element creates what is known as a tag. Tags most commonly occur in pairs of opening and closing tags.
 
