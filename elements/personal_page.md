@@ -20,6 +20,8 @@ What composes a personal site? For starters, your site is going to consist of a 
 
 If you have some alternative ideas about what you want to make, go for it! You should now know enough about HTML to hack through whatever basic page you want to make. If you still feel stuck, call or email me.
 
+I recommend using some of the more powerful organizational pieces I reviewed earlier (`div` and/or `id`). This will make styling your page much much easier.
+
 One of the powerful techniques we learned in a previous lesson was the art of linking different pages together. Try linking the different pages of your website together and test it out to see if it works!
 
 BAM! What we'll do next is slowly learn how to *style* your site to make it as beautiful as you are.

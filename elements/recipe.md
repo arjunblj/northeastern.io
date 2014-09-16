@@ -4,94 +4,10 @@ One small project is taking one of your favorite recipes (or balatantly copying 
 
 Here's one example of this:
 
-```html
-<html>
-    <head>
-        <title> Cooking Website </title>
-    </head>
+![](https://www.dropbox.com/s/51g4bsw7iay1z7s/Screenshot%202014-09-15%2021.11.19.png?dl=1)
 
-    <body>
-        <h1 style="text-align: center">How to make your own Cheesy Cracker Snacks</h1>
+![](https://www.dropbox.com/s/hu92s19z5oqfd2k/Screenshot%202014-09-15%2021.12.19.png?dl=1)
 
-        <img src="introimage.jpg" alt="Make these tasty snacks!">
-        <p>Today, we're going to teach you how to make some delicious cheesy snacks, fun for the whole family.</p>
+Using images and different HTML elements, build a complete recipe you find online.
 
-        <img src="ingredients.jpg" alt="Ingredients">
-        <p>You will need the following ingredients:</p>
-        <ul>
-            <li>
-                Shredded Cheese
-            </li>
-            <li>
-                Butter
-            </li>
-            <li>
-                Flour
-            </li>
-            <li>
-                Salt
-            </li>
-            <li>
-                Cold water
-            </li>
-            <li>
-                Aluminum can
-            </li>
-            <li>
-                Packing tape
-            </li>
-        </ul>
-
-        <hr>
-
-        <img src="can.jpg" alt="The can">
-        <p>
-            The first step is cutting out the shapes of your crackers from the aluminum can.  Cut a thin strip and, then tape the edges together with clear packing tape.
-        </p>
-
-        <hr>
-
-        <img src="blend.jpg" alt="Process THIS" />
-        <p>
-            Begin combining everything, except the water, in a food processor until the dough looks like sand.
-        </p>
-
-        <hr>
-
-        <img src="water.jpg" alt="Adding water" />
-        <p>
-            Next, pulse in the water, 1 tablespoon at a time, until combined.
-        </p>
-
-        <hr>
-
-        <img src="package.jpg" alt="Package this" />
-        <p>
-            Remove the dough from the processor and form into a small, tidy package. Wrap in plastic and chill for 20 minutes.
-        </p>
-
-        <hr>
-
-        <img src="flatten.jpg" alt="Roll out"/>
-        <p>
-            Once chilled, roll out and flatten the dough.
-        </p>
-
-        <hr>
-
-        <img src="cut.jpg" alt="Cut this" />
-        <img src="oven.jpg" alt="Cook this" />
-        <p>
-            Place crackers on a lined cookie sheet and bake at 350F for about 15 minutes.
-        </p>
-
-        <hr>
-
-        <img src="done.jpg" alt="Boo yah" />
-        <p>
-            And, you're done!
-        </p>
-
-    </body>
-</html>
-```
+Send it to me! I need new flavor in my life.
