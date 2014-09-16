@@ -1,6 +1,6 @@
 # Recipe
 
-One small project is taking one of your favorite recipes (or balatantly copying one online, if you don't cook like me) and transcribing it into a HTML layout.
+One small project will be taking one of your favorite recipes (or blatantly copying one online, if you don't cook like me) and transcribing it into a HTML layout.
 
 Here's one example of this:
 

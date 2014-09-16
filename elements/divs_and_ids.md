@@ -39,4 +39,4 @@ Here's an example of a small website using divs to check out:
 </html>
 ```
 
-Small project: try using divs to make a sigle small web page. Add a lot of links to different page sections to see how to link them together.
+**Your turn**: try using divs to make a sigle small web page. Add a lot of links to different page sections to see how to link them together.
