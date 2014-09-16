@@ -1,4 +1,4 @@
-# Week 1: HTML and CSS
+# Week 1: HTML (and a wee bit of CSS)
 
 HTML and CSS are the foundation of the Internet as you see it. While serving content, making calculations, managing data, etc can be handled by a wide varienty of different languages, there is a strong consensus that what you see should comes as HTML (Go to your favorite website, right click on the page, and click View Source to see what we mean).
 
