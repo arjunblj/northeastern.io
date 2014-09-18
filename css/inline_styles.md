@@ -49,4 +49,4 @@ Here are a few other examples — play around with different properties of the s
 <div style="width:20px; height:20px; background-color:#ffcc00;"></div>
 ```
 
-Play around with styling your page with inline styles, though you'll soon realize the inefficiency of doing so (you'll start repeating yourself).
+Play around with styling your page with inline styles, though you'll soon realize the inefficiency of doing so. ;-)
