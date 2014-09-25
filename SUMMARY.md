@@ -18,6 +18,6 @@
        * [External Style Sheets](css/external_style_sheets.md)
    * [Combining Selectors](css/combining_selectors)
    * [Lengths and Sizing](css/lengths_and_sizing)
-   * [The Box Model](css/the_box_model)
+   * [The Box Model](css/the_box_model.md)
    * [Backgrounds](css/backgrounds)
 
