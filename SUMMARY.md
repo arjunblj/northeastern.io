@@ -24,7 +24,8 @@
    * [Variables](python/variables.md)
        * [Creating Variables and Using Basic Operations](python/creating_variables.md)
        * [Type](python/type.md)
+   * [Input and Output](python/input_and_output.md)
    * [If Statements](python/if_statements.md)
-   * [Loops](python/loops)
-   * [Functions](python/functions)
+   * [Loops](python/loops.md)
+   * [Functions](python/functions.md)
 
